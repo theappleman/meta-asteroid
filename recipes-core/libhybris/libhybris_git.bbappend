@@ -5,6 +5,7 @@ COMPATIBLE_MACHINE_dory = "(^dory$)"
 COMPATIBLE_MACHINE_bass = "(^bass$)"
 COMPATIBLE_MACHINE_tetra = "(^tetra$)"
 COMPATIBLE_MACHINE_sparrow = "(^sparrow$)"
+COMPATIBLE_MACHINE_nemo = "(^nemo$)"
 
 do_configure_append() {
      # Use the OE's wayland-scanner (it is in PATH before the host's version)
